@@ -21,7 +21,7 @@ body
 }
 .nav-cover-area
 {
-    background-image: url(images/CoverModelImage.jpg);
+    background-image: url(./Images/cover.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -96,7 +96,66 @@ body
     display: flex;
     justify-content: space-between;
     padding-top: 35px;
+    position: relative;
 }
+
+/* Drop Down Menu Code Area */
+
+.dropDown
+{
+    position: absolute;
+    background: linear-gradient(15deg, #312F2E, #110d0c);
+    width: 150px;
+    height: 220px;
+    padding-left: 15px;
+    margin-left: -47px;
+    transition: 0.5s;
+}
+
+
+.dropDown > li
+{
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.dropDown > li > a
+{
+    text-decoration: none;
+    color: #f3f3f3;
+}
+.dropDown > li > a:hover
+{
+    color: #f2f2f2;
+}
+
+ul.dropDown2 {
+    position: absolute;
+    background: linear-gradient(-4deg, #312F2E, #110d0c);
+    width: 150px;
+    height: 220px;
+    padding-left: 15px;
+    margin-left: -47px;
+    transition: 0.5s;
+}
+
+.dropDown2 > li
+{
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.dropDown2 > li > a
+{
+    text-decoration: none;
+    color: #f3f3f3;
+}
+
+.dropDown2 > li > a:hover
+{
+    color: #f2f2f2;
+}
+
 
 .cover-text 
 {
@@ -214,3 +273,4 @@ p.cover-p-text
 .btn2.btn2-background-slide:focus {
     color: white;
 }
+
